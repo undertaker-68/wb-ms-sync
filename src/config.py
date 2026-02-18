@@ -7,8 +7,8 @@ from pathlib import Path
 @dataclass(frozen=True)
 class Config:
     # tokens
-    WB_TOKEN: str = "<WB_TOKEN>"
-    MS_TOKEN: str = "<MS_TOKEN>"
+    WB_TOKEN: str = "eyJhbGciOiJFUzI1NiIsImtpZCI6IjIwMjUwOTA0djEiLCJ0eXAiOiJKV1QifQ.eyJhY2MiOjEsImVudCI6MSwiZXhwIjoxNzg3MTU3MTY2LCJpZCI6IjAxOWM2ZjA1LWE1NjItNzdiOC1hNTE4LTg4MDVmNGI5YTdmZCIsImlpZCI6NTU1OTc3MDAsIm9pZCI6MjYwMjgzLCJzIjoxNjEyNiwic2lkIjoiMjM5OGExODAtMmNjMy00ODRiLTlmMjktODQ4Y2I4ZTk1MWI0IiwidCI6ZmFsc2UsInVpZCI6NTU1OTc3MDB9.D_jZPPz8RoqWy4VvMj3c8DBDNsLDcOSF88gVwn3e7r6Udto2-Uiysz0xLWX1804ZUW2CMATt7BLbACw-O3roMw"
+    MS_TOKEN: str = "7349ecbbcbc6fc07f7c2238f6822aed63f4ddb12"
 
     # MS base
     MS_BASE: str = "https://api.moysklad.ru/api/remap/1.2"
